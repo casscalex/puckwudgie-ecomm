@@ -7,7 +7,8 @@ const productData = [
     stock: 25,
     category_id: 1,
     description: 'lorem ipsum',
-    img_url: '1.png'
+    img_url: '1.png',
+    user_id: 1
   },
   {
     product_name: 'Running Sneakers, 2',
@@ -15,7 +16,8 @@ const productData = [
     stock: 25,
     category_id: 1,
     description: 'lorem ipsum',
-    img_url: '2.png'
+    img_url: '2.png',
+    user_id: 1
   },
   {
     product_name: 'Running Sneakers, 3',
@@ -23,7 +25,8 @@ const productData = [
     stock: 25,
     category_id: 2,
     description: 'lorem ipsum',
-    img_url: '3.png'
+    img_url: '3.png',
+    user_id: 3
   },
   {
     product_name: 'Running Sneakers, 4',
@@ -31,7 +34,8 @@ const productData = [
     stock: 25,
     category_id: 2,
     description: 'lorem ipsum',
-    img_url: '4.png'
+    img_url: '4.png',
+    user_id: 2
   },
   {
     product_name: 'Running Sneakers, 5',
@@ -39,7 +43,8 @@ const productData = [
     stock: 25,
     category_id: 3,
     description: 'lorem ipsum',
-    img_url: '5.png'
+    img_url: '5.png',
+    user_id: 3
   },
   {
     product_name: 'Running Sneakers, 6',
@@ -47,7 +52,8 @@ const productData = [
     stock: 25,
     category_id: 3,
     description: 'lorem ipsum',
-    img_url: '6.png'
+    img_url: '6.png',
+    user_id: 1
   },
   {
     product_name: 'Running Sneakers, 7',
@@ -55,7 +61,8 @@ const productData = [
     stock: 25,
     category_id: 2,
     description: 'lorem ipsum',
-    img_url: '7.png'
+    img_url: '7.png',
+    user_id: 2
   },
   {
     product_name: 'Running Sneakers, 8',
@@ -63,8 +70,9 @@ const productData = [
     stock: 25,
     category_id: 1,
     description: 'lorem ipsum',
-    img_url: '8.png'
-  }
+    img_url: '8.png',
+    user_id: 1
+  }  
 ];
 
 const seedProducts = () => Product.bulkCreate(productData);
