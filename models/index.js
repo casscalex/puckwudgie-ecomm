@@ -15,7 +15,7 @@ Product.belongsTo(Category, {
   
   // Products belongsTo one user
   Product.belongsTo(User, {
-    foreignKey: 'product_id', 
+    foreignKey: 'user_id', 
     // onDelete: "SET NULL"
   }) 
   
