@@ -49,16 +49,15 @@ Product.init(
     category_id: {
       type: DataTypes.INTEGER,
       references: {
-        model: 'Category',
+        model: 'category',
         key: 'id'
       }
     },
     user_id: {
       type: DataTypes.INTEGER,
-      // allowNull: true,
-      references: {         
-        model: "user",         
-        key: "id",       
+      references: {
+        model: 'user',
+        key: 'id'
       }
     }
   },
