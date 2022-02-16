@@ -7,8 +7,7 @@ const productData = [
     stock: 25,
     category_id: 1,
     description: 'lorem ipsum',
-    img_url: '1.png',
-    user_id: 1
+    img_url: '1.png'
   },
   {
     product_name: 'Running Sneakers, 2',
@@ -16,8 +15,7 @@ const productData = [
     stock: 25,
     category_id: 1,
     description: 'lorem ipsum',
-    img_url: '2.png',
-    user_id: 1
+    img_url: '2.png'
   },
   {
     product_name: 'Running Sneakers, 3',
@@ -25,8 +23,7 @@ const productData = [
     stock: 25,
     category_id: 2,
     description: 'lorem ipsum',
-    img_url: '3.png',
-    user_id: 3
+    img_url: '3.png'
   },
   {
     product_name: 'Running Sneakers, 4',
@@ -34,8 +31,7 @@ const productData = [
     stock: 25,
     category_id: 2,
     description: 'lorem ipsum',
-    img_url: '4.png',
-    user_id: 2
+    img_url: '4.png'
   },
   {
     product_name: 'Running Sneakers, 5',
@@ -43,8 +39,7 @@ const productData = [
     stock: 25,
     category_id: 3,
     description: 'lorem ipsum',
-    img_url: '5.png',
-    user_id: 3
+    img_url: '5.png'
   },
   {
     product_name: 'Running Sneakers, 6',
@@ -52,8 +47,7 @@ const productData = [
     stock: 25,
     category_id: 3,
     description: 'lorem ipsum',
-    img_url: '6.png',
-    user_id: 1
+    img_url: '6.png'
   },
   {
     product_name: 'Running Sneakers, 7',
@@ -61,8 +55,7 @@ const productData = [
     stock: 25,
     category_id: 2,
     description: 'lorem ipsum',
-    img_url: '7.png',
-    user_id: 2
+    img_url: '7.png'
   },
   {
     product_name: 'Running Sneakers, 8',
@@ -70,8 +63,7 @@ const productData = [
     stock: 25,
     category_id: 1,
     description: 'lorem ipsum',
-    img_url: '8.png',
-    user_id: 1
+    img_url: '8.png'
   }  
 ];
 
