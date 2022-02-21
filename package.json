@@ -1,5 +1,5 @@
 {
-  "name": "tech-blog_mysql",
+  "name": "puckwudgie-ecomm",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -10,12 +10,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BooMajka/Tech-Blog_mysql.git"
+    "url": "git+https://github.com/casscalex/puckwudgie-ecomm.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/BooMajka/Tech-Blog_mysql/issues"
+    "url": "https://github.com/casscalex/puckwudgie-ecomm/issues"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -28,5 +28,5 @@
     "mysql2": "^2.1.0",
     "sequelize": "^5.21.5"
   },
-  "homepage": "https://github.com/BooMajka/Tech-Blog_mysql#readme"
+  "homepage": "https://github.com/casscalex/puckwudgie-ecomm#readme"
 }

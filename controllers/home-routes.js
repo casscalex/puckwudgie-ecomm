@@ -1,8 +1,11 @@
 const router = require('express').Router();
 const sequelize = require('../config/connection');
 const { Product, Category, User } = require('../models');
+const withAuth = require('../utils/auth');
+// const withAuth = require('../utils/auth');
 
-router.get('/', (req, res) => {
+// added withAuth requierment
+router.get('/', withAuth, (req, res) => {
   console.log(req.session);
   Product.findAll({
     attributes: [
