@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const { Category } = require('../../models');
-const withAuth = require('../../utils/auth');
+// const withAuth = require('../../utils/auth');
 // added authentication to categories
 //get all categories
 router.get('/', (req, res) => {
@@ -33,7 +33,8 @@ router.get('/:id', (req, res) => {
 });
 
 //create new category
-router.post('/', withAuth, (req, res) => {
+//deleted with Auth until we figure things out
+router.post('/', (req, res) => {
   // check the session
   if (req.session) {
     Category.create({
@@ -48,7 +49,7 @@ router.post('/', withAuth, (req, res) => {
 });
 
 //update a category
-router.put('/:id', withAuth, (req, res) => {
+router.put('/:id', (req, res) => {
   User.update(req.body, {
     where: {
       id: req.params.id
@@ -68,7 +69,7 @@ router.put('/:id', withAuth, (req, res) => {
 });
 
 //delete a category
-router.delete('/:id', withAuth (req, res) => {
+router.delete('/:id', (req, res) => {
   Category.destroy({
     where: {
       id: req.params.id
