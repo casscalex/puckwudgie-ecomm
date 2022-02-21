@@ -1,27 +1,9 @@
 <div class="row">
   <div class="col-md-12" style="width:80%; display:flex; justify-content: center;">
-    <button type="button" class="btn custom">Shop Now</button>
+    {{#if loggedIn}}
+    <button type="button" class="btn custom"><a href="/store">Shop Now</a></button>
+    {{else}}
+    <button type="button" class="btn custom"><a href="/login">Shop Now</a></button>
+    {{/if}}
   </div>
 </div>
-
-<!-- carousel with cards -->
-<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-        <div class="cards-wrapper">
-        {{#each products as |product|}}
-        <div>
-          {{> product-info product}}
-        </div>
-        {{/each}}
-      </div>
-    </div>
-    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
