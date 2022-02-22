@@ -1,8 +1,9 @@
 const router = require('express').Router();
 const { Product, Category } = require('../../models');
 
+
 //get all products
-router.get('/', (req, res) => {
+router.get('/',  (req, res) => {
   Product.findAll()
     .then(dbProductData => res.json(dbProductData))
     .catch(err => {
@@ -12,7 +13,7 @@ router.get('/', (req, res) => {
 });
 
 //get 1 Product
-router.get('/:id', (req, res) => {
+router.get('/:id',  (req, res) => {
   Product.findOne({
     where: {
       id: req.params.id
