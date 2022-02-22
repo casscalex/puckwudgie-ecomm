@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const { Category } = require('../../models');
-// const withAuth = require('../../utils/auth');
+const withAuth = require('../../utils/auth');
 // added authentication to categories
 //get all categories
 router.get('/', (req, res) => {
